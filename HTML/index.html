@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Registration Form</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Center form properly */
+form {
+    width: 350px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Radio & Checkbox spacing */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049;
+}
+</style>
+</head>
+<body>
+     <!-- This is a comment tag in html-->
+
+      
+     <H1 style="text-align: center;">Registration Form</H1>
+
+     
+     <hr>
+     
+    <form id="registrationForm" action="Submit.html" method="get">
+
+      <h4>
+     <label for="name" >Name</label>
+     <input type="text" placeholder="Enter your name">
+     
+    <br><br>
+
+    <label for="email">Email</label>
+    <input type="email" placeholder="Enter your mail"> 
+    <br><br>
+
+    <label for="DOB">DOB</label>
+    <input type="date">
+    <br><br>
+
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender" value="male">Male 
+    <input type="radio" name="gender" value="female">Female
+    <br><br>
+<br>
+    <label for="languages">Languages</label>
+    <input type="checkbox" name = "languages" value="English">English
+    <input type="checkbox" name = "languages" value="Hindi">Hindi
+    <input type="checkbox" name = "languages" value="French">French
+    <br><br>
+
+    <label for="City">City</label>
+    <input type="text" placeholder="Enter your city">
+    <br><br>
+    <br>
+
+    
+    <button id="submitBtn" type="submit">Submit</button>
+
+
+    </h4>
+    </form>
+    
+<script src="main.js"></script>
+</body>
+</html>
